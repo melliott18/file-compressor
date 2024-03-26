@@ -8,15 +8,19 @@
 
 ### Compile:
 
-<p>make</p>
-<p>make all: Build and compile everything</p>
-<p>make clean: Remove object files</p>
-<p>make infer: Run infer</p>
-
-<br></br>
+```
+make
+make all: Build and compile everything
+make clean: Remove object files
+make infer: Run infer
+```
 
 ### Run:
 
-<p>./main (Flags) (Flags: -v -c -d -i<input file>: -o<output file>:)</p>
-<p>Compression and decompression are mutually exclusive; only one may be chosen at a time.</p>
+```
+usage: main [-v] [-c] [-d] -i <input file> -o <output file>
+```
 
+### Notes
+
+<p>Compression and decompression are mutually exclusive; only one may be chosen at a time.</p>
